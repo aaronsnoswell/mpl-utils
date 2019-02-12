@@ -1,6 +1,6 @@
 # mpl-utils
 
-A collection of plotting functions for Matplotlib
+A collection of plotting functions for matplotlib
 
 # Functions
 
