@@ -10,7 +10,7 @@ A plot designed for visualising large matrices or vectors.
 Each row of the matrix is rendered as a spline-interpolated line, allowing 
 structure in the matrix to be quickly visualised:
 
-![Thread plot example image](figures\thread_plot.png)
+![Thread plot example image](figures/thread_plot.png)
 
 # Installation
 
