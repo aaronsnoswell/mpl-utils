@@ -106,7 +106,7 @@ def thread_plot(
     plt.xlim((0, cols+1))
 
 
-if __name__ == "__main__":
+def demo():
     """Demo the thread plot"""
 
     # Plot identity matrix
@@ -171,3 +171,7 @@ if __name__ == "__main__":
     plt.suptitle("Rotation Matrices")
     plt.tight_layout()
     plt.show()
+
+
+if __name__ == "__main__":
+    demo()
