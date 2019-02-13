@@ -10,13 +10,17 @@ A plot designed for visualising large matrices or vectors.
 Each row of the matrix is rendered as a spline-interpolated line, allowing 
 structure in the matrix to be quickly visualised:
 
-![Thread plot example](figures/thread_plot.png)
+<p align="center" >
+    <img title="Thread plot example" src="figures/thread_plot.png" width="600pt" />
+</p>
 
 ## [`xyt_plot.py`](mpl_utils/xyt_plot.py): XY-Time plot
 
 Plots an X-Y trajectory, using color to show change over time.
 
-![XYT plot example](figures/xyt_plot.png)
+<p align="center" >
+    <img title="XYT plot example" src="figures/xyt_plot.png" width="600pt" />
+</p>
 
 # Installation
 
