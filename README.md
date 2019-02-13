@@ -4,7 +4,7 @@ A collection of plotting functions for matplotlib
 
 # Functions
 
-## thead_plot.py: Thread Plot
+## `thead_plot.py`: Thread Plot
 
 A plot designed for visualising large matrices or vectors.
 Each row of the matrix is rendered as a spline-interpolated line, allowing 
