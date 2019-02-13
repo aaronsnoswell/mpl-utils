@@ -44,5 +44,6 @@ To test the installation:
 ```bash
 $> cd ~
 $> python
-$> from mpl_utils import *
+>>> import mpl_utils
+>>> for d in mpl_utils.demos.values(): d()
 ```

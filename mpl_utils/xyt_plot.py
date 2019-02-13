@@ -58,6 +58,8 @@ def xyt_plot(x, y, *, t=None, **kwargs):
 def demo():
     """Demo the xyt plot"""
 
+    print(f"Demonstration of {xyt_plot.__name__}")
+
     # Plot a fun spiral trajectory
     t = np.arange(0, 1, 0.001)
     x = np.sin(t * 10*2*np.pi) * t/2 + t/4

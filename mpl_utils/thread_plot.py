@@ -109,6 +109,8 @@ def thread_plot(
 def demo():
     """Demo the thread plot"""
 
+    print(f"Demonstration of {thread_plot.__name__}")
+
     # Plot identity matrix
     plt.figure()
     size = 10

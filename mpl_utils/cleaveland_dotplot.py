@@ -107,6 +107,8 @@ def cleaveland_dotplot(df, x, bars=None, *, category=None, right_label=None):
 def demo():
     """Demo the Cleaveland dotplot"""
 
+    print(f"Demonstration of {cleaveland_dotplot.__name__}")
+
     # Load the autompg dataset from UCI Machine Learning Repository
     autompg_url = "http://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data"
     print(f"Downloading autompg dataset from {autompg_url}")
