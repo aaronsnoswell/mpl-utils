@@ -4,13 +4,19 @@ A collection of plotting functions for matplotlib
 
 # Functions
 
-## `thead_plot.py`: Thread Plot
+## [`thead_plot.py`](mpl_utils/thread_plot.py): Thread Plot
 
 A plot designed for visualising large matrices or vectors.
 Each row of the matrix is rendered as a spline-interpolated line, allowing 
 structure in the matrix to be quickly visualised:
 
-![Thread plot example image](figures/thread_plot.png)
+![Thread plot example](figures/thread_plot.png)
+
+## [`xyt_plot.py`](mpl_utils/xyt_plot.py): XY-Time plot
+
+Plots an X-Y trajectory, using color to show change over time.
+
+![XYT plot example](figures/xyt_plot.png)
 
 # Installation
 
