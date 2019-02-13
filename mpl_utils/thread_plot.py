@@ -1,4 +1,4 @@
-"""Produce a matrix line plot"""
+"""Produce a matrix thread plot"""
 
 import numpy as np
 from scipy.interpolate import interp1d
@@ -13,7 +13,7 @@ def thread_plot(
         color='tab:blue',
         **kwargs
 ):
-    """Produce a matrix line plot
+    """Plots rows of a matrix as stacked interpolated line plots
 
     Args:
         mat (numpy array): Matrix to plot
