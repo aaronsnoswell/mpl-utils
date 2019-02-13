@@ -115,7 +115,6 @@ if __name__ == "__main__":
     thread_plot(np.eye(size))
     plt.title(r"Identity Matrix $I_{10}$")
     plt.tight_layout()
-    plt.savefig("thread_plot.png", dpi=600)
     plt.show()
 
     # Plot random normal matrix
