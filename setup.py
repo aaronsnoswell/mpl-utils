@@ -10,6 +10,7 @@ setup(
         "matplotlib",
         "numpy",
         "scipy",
+        "pandas",
     ],
     author='Aaron Snoswell',
     author_email='authornameatfastmaildotcom',

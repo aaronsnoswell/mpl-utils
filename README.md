@@ -2,8 +2,6 @@
 
 A collection of plotting functions for matplotlib
 
-# Functions
-
 ## [`thead_plot.py`](mpl_utils/thread_plot.py): Thread Plot
 
 A plot designed for visualising large matrices or vectors.
@@ -20,6 +18,15 @@ Plots an X-Y trajectory, using color to show change over time.
 
 <p align="center" >
     <img title="XYT plot example" src="figures/xyt_plot.png" width="600pt" />
+</p>
+
+## [`cleaveland_dotplot.py`](mpl_utils/cleaveland_dotplot.py): Cleaveland Dot Plot
+
+Plots observations across a categorical variable, along with some range for 
+each observation.
+
+<p align="center" >
+    <img title="Cleaveland dotplot example" src="figures/cleaveland_dotplot.png" width="600pt" />
 </p>
 
 # Installation
