@@ -1,11 +1,11 @@
-"""Produce a Cleaveland dot plot"""
+"""Produce a Cleveland dot plot"""
 
 from matplotlib import pyplot as plt
 import pandas as pd
 
 
-def cleaveland_dotplot(df, x, bars=None, *, category=None, right_label=None):
-    """Produce a Cleaveland dot plot from a DataFrame
+def cleveland_dotplot(df, x, bars=None, *, category=None, right_label=None):
+    """Produce a Cleveland dot plot from a DataFrame
 
     Cleveland dot plots are a dot plot of categorical variable observations
     showing some range for each observation (e.g. standard deviation). See
@@ -105,9 +105,9 @@ def cleaveland_dotplot(df, x, bars=None, *, category=None, right_label=None):
 
 
 def demo():
-    """Demo the Cleaveland dotplot"""
+    """Demo the Cleveland dotplot"""
 
-    print(f"Demonstration of {cleaveland_dotplot.__name__}")
+    print(f"Demonstration of {cleveland_dotplot.__name__}")
 
     # Load the autompg dataset from UCI Machine Learning Repository
     autompg_url = "http://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data"
@@ -157,9 +157,9 @@ def demo():
     ):
         print(autompg)
 
-    # Plot with a cleaveland dotplot
+    # Plot with a cleveland dotplot
     plt.figure()
-    cleaveland_dotplot(
+    cleveland_dotplot(
         autompg,
         "mpg_mean",
         "mpg_std",

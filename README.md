@@ -20,13 +20,13 @@ Plots an X-Y trajectory, using color to show change over time.
     <img title="XYT plot example" src="figures/xyt_plot.png" width="600pt" />
 </p>
 
-## [`cleaveland_dotplot.py`](mpl_utils/cleaveland_dotplot.py): Cleaveland Dot Plot
+## [`cleveland_dotplot.py`](mpl_utils/cleveland_dotplot.py): Cleveland Dot Plot
 
 Plots observations across a categorical variable, along with some range for 
 each observation.
 
 <p align="center" >
-    <img title="Cleaveland dotplot example" src="figures/cleaveland_dotplot.png" width="600pt" />
+    <img title="Cleveland dotplot example" src="figures/cleveland_dotplot.png" width="600pt" />
 </p>
 
 # Installation
