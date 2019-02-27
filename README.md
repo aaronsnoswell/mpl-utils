@@ -29,6 +29,14 @@ each observation.
     <img title="Cleveland dotplot example" src="figures/cleveland_dotplot.png" width="600pt" />
 </p>
 
+## [`moving_average_plot.py`](mpl_utils/moving_average_plot.py): Moving Average Plot
+
+Plot a moving-average filtered version of a signal.
+
+<p align="center" >
+    <img title="Moving average plot example" src="figures/moving_average_plot.png" width="600pt" />
+</p>
+
 # Installation
 
 This package is not distributed on PyPI - you'll need to install it from source:
