@@ -2,7 +2,7 @@
 # Load modules so we can collect demonstration functions
 import mpl_utils.thread_plot
 import mpl_utils.xyt_plot
-import mpl_utils.cleaveland_dotplot
+import mpl_utils.cleveland_dotplot
 import mpl_utils.moving_average_plot
 
 demos = {
